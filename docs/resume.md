@@ -1,7 +1,7 @@
 
 # SAI NITHIN REDDY KASIREDDY
 
-![Headshot](../headshot.jpg)
+![Headshot](../headshot.jpeg)
 
 📧 Email: [sainithinkasireddy@gmail.com](mailto:sainithinkasireddy@gmail.com)  
 📱 Mobile: 667-802-0532  

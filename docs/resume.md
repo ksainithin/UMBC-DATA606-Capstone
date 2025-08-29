@@ -12,11 +12,11 @@
 
 **University of Maryland, Baltimore County** — *Aug 2024 – May 2026*  
 *MPS in Data Science*  
-- GPA: 4.0/4.0  
+  
 
 **Vellore Institute of Technology** — *Jun 2019 – Jun 2023*  
 *B.Tech in Electronics and Communication Engineering*  
-- GPA: 8.09/10  
+ 
 
 ---
 

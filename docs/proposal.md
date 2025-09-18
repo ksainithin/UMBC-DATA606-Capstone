@@ -1,12 +1,11 @@
 # Air Quality & Pollution Prediction  
 
 **Prepared for:** UMBC Data Science Master Degree Capstone by Dr. Chaojie (Jay) Wang  
-**Author:** Sai Nithin Reddy kasireddy 
-
+**Author:** Sai Nithin Reddy Kasireddy  
 **GitHub Repo:** [UMBC-DATA606-Capstone](https://github.com/ksainithin/UMBC-DATA606-Capstone/tree/main)  
-**LinkedIn Profile:** [Sai Nithin Reddy](https://www.linkedin.com/in/sai-nithin-reddy-1405b2220/)  
-**PowerPoint Presentation:** [to be added later]  
-**YouTube Video:** [to be added later]  
+**LinkedIn Profile:** [Sai Nithin Reddy Kasireddy](https://www.linkedin.com/in/sai-nithin-reddy-1405b2220/)  
+**PowerPoint Presentation:** [Link to PPT]  
+**YouTube Video:** [Link to Video]  
 
 ---
 
@@ -38,11 +37,11 @@ Accurate predictions of air pollution can:
 - ~400 MB (compressed CSV files)  
 
 ### Data Shape  
-- Tens of thousands of rows  
-- ~10–15 columns  
+- **Rows:** ~5,200,000 (5.2 million) records  
+- **Columns:** 12–15 (depending on pollutant coverage by city)  
 
 ### Time Period  
-- Multiple years of **hourly air quality measurements** across different European cities  
+- Multiple years of **hourly air quality measurements** across different European cities (2010–2020 range)  
 
 ### Row Representation  
 Each row represents an **hourly measurement** of air quality and meteorological factors in a specific city.  

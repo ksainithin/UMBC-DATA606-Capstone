@@ -44,7 +44,7 @@ Accurate predictions of air pollution can:
 - Multiple years of **hourly air quality measurements** across different European cities (2010–2020 range)  
 
 ### Row Representation  
-Each row represents an **hourly measurement** of air quality and meteorological factors in a specific city.  
+Each row represents an **daily measurement** of air quality and meteorological factors in a specific city.  
 
 ---
 

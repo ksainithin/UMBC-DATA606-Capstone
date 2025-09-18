@@ -4,8 +4,8 @@
 **Author:** Sai Nithin  
 **GitHub Repo:** [UMBC-DATA606-Capstone](https://github.com/ksainithin/UMBC-DATA606-Capstone/tree/main)  
 **LinkedIn Profile:** [Sai Nithin Reddy](https://www.linkedin.com/in/sai-nithin-reddy-1405b2220/)  
-**PowerPoint Presentation:** [Link to PPT]  
-**YouTube Video:** [Link to Video]  
+**PowerPoint Presentation:** [to be added later]  
+**YouTube Video:** [to be added later]  
 
 ---
 

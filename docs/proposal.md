@@ -4,8 +4,8 @@
 **Author:** Sai Nithin Reddy Kasireddy  
 **GitHub Repo:** [UMBC-DATA606-Capstone](https://github.com/ksainithin/UMBC-DATA606-Capstone/tree/main)  
 **LinkedIn Profile:** [Sai Nithin Reddy Kasireddy](https://www.linkedin.com/in/sai-nithin-reddy-1405b2220/)  
-**PowerPoint Presentation:** [Link to PPT]  
-**YouTube Video:** [Link to Video]  
+**PowerPoint Presentation:** [to be added later]  
+**YouTube Video:** [to be added later]  
 
 ---
 
@@ -31,7 +31,7 @@ Accurate predictions of air pollution can:
 
 ### Data Sources  
 - **Primary Dataset:** https://drive.google.com/file/d/15MnMJKjqzyWBcMvy1iBaxUspl_s4_-be/view?usp=sharing  
-- 
+  
 
 ### Data Size  
 - ~400 MB (compressed CSV files)  

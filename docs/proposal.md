@@ -40,8 +40,7 @@ Accurate predictions of air pollution can:
 - **Rows:** ~1048576 records  
 - **Columns:** 28
   
-### Time Period  
-- Multiple years of **hourly air quality measurements** across different European cities (2010–2020 range)  
+
 
 ### Row Representation  
 Each row represents an **daily measurement** of air quality and meteorological factors in a specific city.  

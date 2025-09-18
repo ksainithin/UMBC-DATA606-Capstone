@@ -1,58 +1,74 @@
-# Air Quality & Pollution Prediction
+# Air Quality & Pollution Prediction  
 
 **Prepared for:** UMBC Data Science Master Degree Capstone by Dr. Chaojie (Jay) Wang  
-**Author Name:** KASIREDDY SAI NITHIN REDDY
-**GitHub Repo:**   https://github.com/ksainithin/UMBC-DATA606-Capstone  
-**PowerPoint Presentation:**   to be added later
-
+**Author:** Sai Nithin  
+**GitHub Repo:** [UMBC-DATA606-Capstone](https://github.com/ksainithin/UMBC-DATA606-Capstone/tree/main)  
+**LinkedIn Profile:** [Sai Nithin Reddy](https://www.linkedin.com/in/sai-nithin-reddy-1405b2220/)  
+**PowerPoint Presentation:** [Link to PPT]  
+**YouTube Video:** [Link to Video]  
 
 ---
 
-## 1. Background
+## 1. Background  
 
-**What is it about?**  
-Air pollution is a major environmental and public health issue, causing respiratory and cardiovascular diseases and contributing to premature deaths worldwide. This project aims to **predict air pollutant levels (PM2.5, PM10, NO2, O3) in European cities** based on historical air quality and environmental data.
+### What is it about?  
+Air pollution is a critical global issue, impacting both **environmental sustainability** and **public health**. Pollutants like **PM2.5, PM10, NO2, and O3** are linked to respiratory illnesses, cardiovascular diseases, and premature deaths. This project aims to **predict pollutant levels in European cities** using historical air quality and weather data.  
 
-**Why does it matter?**  
-Forecasting pollution levels allows governments, cities, and citizens to:  
-- Take proactive measures to reduce exposure  
-- Develop policies for urban planning and pollution control  
-- Provide timely alerts for public health  
+### Why does it matter?  
+Accurate predictions of air pollution can:  
+- Enable governments and organizations to **issue health alerts** and protect vulnerable populations.  
+- Help **urban planners and policymakers** design strategies to reduce emissions.  
+- Provide **citizens with real-time insights** to make safer choices (e.g., outdoor activities).  
 
-**Research Questions:**  
+### Research Questions  
 1. Can we accurately predict pollutant levels in European cities using historical air quality and weather data?  
-2. Which factors (weather, city, season, time of day) have the most influence on pollutant levels?  
-3. Can we create an interactive tool to forecast air pollution in real time?  
+2. Which environmental and meteorological factors most influence air pollution?  
+3. Can we build an **interactive visualization tool** to forecast pollution levels in real time?  
 
 ---
 
-## 2. Data
+## 2. Data  
 
-**Data Sources:**  
-- **Primary Dataset:** Urban Air Quality Dataset (Europe) – [Kaggle Link](https://www.kaggle.com/datasets/sogun3/uspollution)  
-- **Optional Supplementary Dataset:** WHO or EEA health datasets for linking pollution to health outcomes  
+### Data Sources  
+- **Primary Dataset:** Urban Air Quality Dataset (Europe) – [Kaggle Link](https://www.kaggle.com/datasets)  
+- **Supplementary Dataset (Optional):** WHO/EEA health outcome data (for linking pollution to health impacts).  
 
-**Data Size:** ~400 MB  
-**Data Shape:** Tens of thousands of rows, ~10–15 columns  
-**Time Period:** Varies by city (dataset contains hourly air quality measurements over multiple years)  
-**Row Representation:** Each row represents an hourly measurement of air quality and weather parameters in a specific European city.
+### Data Size  
+- ~400 MB (compressed CSV files)  
 
-### Data Dictionary
+### Data Shape  
+- Tens of thousands of rows  
+- ~10–15 columns  
 
-| Column Name   | Data Type    | Definition                                   | Potential Values / Notes       | Use in ML Model |
-|---------------|-------------|---------------------------------------------|--------------------------------|----------------|
-| city          | Categorical | Name of the city                             | e.g., Paris, Berlin, London    | Feature        |
-| datetime      | Datetime    | Timestamp of measurement                     | YYYY-MM-DD HH:MM               | Feature        |
-| PM2.5         | Numeric     | Fine particulate matter                       | μg/m³                          | Target         |
-| PM10          | Numeric     | Coarse particulate matter                     | μg/m³                          | Target         |
-| NO2           | Numeric     | Nitrogen Dioxide concentration               | μg/m³                          | Target         |
-| O3            | Numeric     | Ozone concentration                           | μg/m³                          | Target         |
-| CO            | Numeric     | Carbon Monoxide concentration                | mg/m³                          | Feature        |
-| SO2           | Numeric     | Sulfur Dioxide concentration                 | μg/m³                          | Feature        |
-| temperature   | Numeric     | Air temperature                               | °C                             | Feature        |
-| humidity      | Numeric     | Relative humidity                             | %                              | Feature        |
-| wind_speed    | Numeric     | Wind speed                                    | m/s                            | Feature        |
-| pressure      | Numeric     | Atmospheric pressure                          | hPa                            | Feature        |
+### Time Period  
+- Multiple years of **hourly air quality measurements** across different European cities  
 
-**Target Variables:** PM2.5, PM10, NO2, O3  
-**Feature Variables / Predictors:** city, datetime (converted to hour/day/month), temperature, humidity, wind_speed, pressure, CO, SO2  
+### Row Representation  
+Each row represents an **hourly measurement** of air quality and meteorological factors in a specific city.  
+
+---
+
+## Data Dictionary  
+
+| Column Name  | Data Type   | Definition                          | Potential Values / Notes       | Use in ML Model |
+|--------------|------------|-------------------------------------|--------------------------------|-----------------|
+| city         | Categorical | Name of the city                   | e.g., Paris, Berlin, London    | Feature         |
+| datetime     | Datetime    | Timestamp of measurement           | YYYY-MM-DD HH:MM               | Feature         |
+| PM2.5        | Numeric     | Fine particulate matter (µg/m³)     | Continuous values              | Target          |
+| PM10         | Numeric     | Coarse particulate matter (µg/m³)   | Continuous values              | Target          |
+| NO2          | Numeric     | Nitrogen Dioxide (µg/m³)           | Continuous values              | Target          |
+| O3           | Numeric     | Ozone (µg/m³)                      | Continuous values              | Target          |
+| CO           | Numeric     | Carbon Monoxide (mg/m³)            | Continuous values              | Feature         |
+| SO2          | Numeric     | Sulfur Dioxide (µg/m³)             | Continuous values              | Feature         |
+| temperature  | Numeric     | Air temperature (°C)               | Continuous values              | Feature         |
+| humidity     | Numeric     | Relative humidity (%)              | Continuous values              | Feature         |
+| wind_speed   | Numeric     | Wind speed (m/s)                   | Continuous values              | Feature         |
+| pressure     | Numeric     | Atmospheric pressure (hPa)         | Continuous values              | Feature         |
+
+---
+
+### Target Variables  
+- **PM2.5, PM10, NO2, O3**  
+
+### Feature Variables / Predictors  
+- **city, datetime (converted to hour/day/month), temperature, humidity, wind_speed, pressure, CO, SO2**  

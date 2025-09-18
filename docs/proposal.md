@@ -1,7 +1,7 @@
 # Air Quality & Pollution Prediction
 
 **Prepared for:** UMBC Data Science Master Degree Capstone by Dr. Chaojie (Jay) Wang  
-**Author Name:** Sai Nithin  
+**Author Name:** KASIREDDY SAI NITHIN REDDY
 **GitHub Repo:**   https://github.com/ksainithin/UMBC-DATA606-Capstone  
 **PowerPoint Presentation:**   to be added later
 

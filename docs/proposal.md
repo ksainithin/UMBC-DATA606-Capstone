@@ -30,16 +30,16 @@ Accurate predictions of air pollution can:
 ## 2. Data  
 
 ### Data Sources  
-- **Primary Dataset:** Urban Air Quality Dataset (Europe) – [Kaggle Link](https://www.kaggle.com/datasets)  
-- **Supplementary Dataset (Optional):** WHO/EEA health outcome data (for linking pollution to health impacts).  
+- **Primary Dataset:** https://drive.google.com/file/d/15MnMJKjqzyWBcMvy1iBaxUspl_s4_-be/view?usp=sharing  
+- 
 
 ### Data Size  
 - ~400 MB (compressed CSV files)  
 
 ### Data Shape  
-- **Rows:** ~5,200,000 (5.2 million) records  
-- **Columns:** 12–15 (depending on pollutant coverage by city)  
-
+- **Rows:** ~1048576 records  
+- **Columns:** 28
+  
 ### Time Period  
 - Multiple years of **hourly air quality measurements** across different European cities (2010–2020 range)  
 

@@ -142,8 +142,7 @@ Pollutant variables exhibit **right-skewed distributions**, consistent with envi
 ## 4.6 Visual Exploration  
 
 ### (a) Distribution of O₃ AQI
-![Distribution of O3 AQI](<img width="1367" height="414" alt="image" src="https://github.com/user-attachments/assets/25967f05-0304-4ba4-bc86-8cc15123bc29" />
-)
+![Distribution of O3 AQI](distribution_of_o3_AQI.PNG)
 
 - Right-skewed histogram; long upper tail indicates occasional high-pollution days.  
 - Boxplot confirms multiple outliers.

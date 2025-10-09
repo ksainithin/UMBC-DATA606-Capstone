@@ -151,7 +151,7 @@ Pollutant variables exhibit **right-skewed distributions**, consistent with envi
 ---
 
 ### (b) Correlation Analysis
-![Correlation Heatmap](../images/eda_correlation_heatmap.png)
+![Correlation Heatmap](CORRELATION_HEATMAP_1.PNG)
 
 | Top Correlations with O₃_AQI | r-value |
 |-------------------------------|-----------|
@@ -167,7 +167,7 @@ Pollutant variables exhibit **right-skewed distributions**, consistent with envi
 ---
 
 ### (c) Scatter Matrix  
-![Scatter Matrix](../images/eda_scatter_matrix.png)
+![Scatter Matrix](Scatter_matrix.PNG)
 
 - `O3_AQI` has nonlinear relationships with other pollutants.  
 - Dense clusters near the origin represent clean-air periods; sparse outliers denote smog events.
@@ -175,7 +175,7 @@ Pollutant variables exhibit **right-skewed distributions**, consistent with envi
 ---
 
 ### (d) Time-Series Trend  
-![Trend of O3 AQI](../images/eda_time_trend.png)
+![Trend of O3 AQI](trend_of_o3_aqi_overtime.PNG)
 
 - Clear **seasonal oscillations** with annual peaks in warmer months.  
 - Indicates **temperature and sunlight** strongly influence ozone formation.
@@ -201,7 +201,7 @@ Outliers correspond to **short-term pollution spikes** and will be treated using
 
 ## 4.8 City-Level Insights  
 
-![Top 15 Cities by Avg O3 Levels](../images/eda_citywise_o3.png)
+![Top 15 Cities by Avg O3 Levels](top15cities_avgOzoneLevels.PNG)
 
 - **Capitan**, **Boulder City**, and **Ponca City** record the highest ozone means.  
 - Southwestern regions display elevated values due to higher solar radiation and temperature.

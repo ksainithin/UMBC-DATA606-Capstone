@@ -109,7 +109,7 @@ Each record corresponds to one day’s pollutant measurements at a monitoring lo
 - Removed **2 ,407 duplicate rows**.  
 - Verified that each row = one observation and each column = one variable.  
 
-✅ **Dataset is tidy and ready for modeling.**
+ **Dataset is tidy and ready for modeling.**
 
 ---
 
@@ -213,7 +213,7 @@ Outliers correspond to **short-term pollution spikes** and will be treated using
 - Each variable occupies a distinct column.  
 - Dataset passes all tidy-data checks.  
 
-✅ **Final structure is clean and analysis-ready.**
+ **Final structure is clean and analysis-ready.**
 
 ---
 
@@ -249,6 +249,5 @@ Such external datasets will enrich spatial and meteorological context.
 
 ---
 
-**End of Section 4 – Exploratory Data Analysis (EDA)**  
-*Prepared by Sai Nithin Reddy Kasireddy, UMBC MS Data Science Capstone 2025*
+
 

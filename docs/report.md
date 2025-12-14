@@ -1,7 +1,7 @@
 # 🌫️ Air Quality & Pollution Prediction
 
 **Sai Nithin Reddy Kasireddy**  
-**Spring 2025 – UMBC DATA 606 Capstone Project**
+**Fall 2025 – UMBC DATA 606 Capstone Project**
 
 ---
 

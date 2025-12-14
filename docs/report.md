@@ -11,7 +11,7 @@
   https://github.com/ksainithin/UMBC-DATA606-Capstone  
 
 - **Final Presentation (PPT):**  
-  https://github.com/ksainithin/UMBC-DATA606-Capstone/blob/main/docs/final_ppt_project.pptx  
+  (https://docs.google.com/presentation/d/1PrX6BFbLnjih8sqxg9V1BBPYnKJ0Oui7/edit?usp=sharing&ouid=110232658572728554686&rtpof=true&sd=true) 
 
 - **YouTube Presentation Video:**  
   *(Add your YouTube link here)*  

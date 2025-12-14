@@ -132,6 +132,8 @@ A Streamlit web application was developed to allow users to interact with the tr
 - Automatic mapping of predictions to EPA AQI health categories
 - Designed for non-technical users
 
+  ![Web_application](WEB_application.PNG)
+
 ### Tools Used
 - Streamlit
 - scikit-learn

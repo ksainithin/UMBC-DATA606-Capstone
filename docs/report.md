@@ -72,7 +72,7 @@ EDA was conducted to understand data distribution and feature relationships.
 - **Distribution Analysis:**  
   Histograms and boxplots of O₃_AQI show a right-skewed distribution with occasional extreme pollution values.
 
-  ![O3 AQI Distribution](distribution_of_o3_AQI.png)
+  ![O3 AQI Distribution](distribution_of_o3_AQI.PNG)
 
 - **Correlation Analysis:**  
   O₃_Mean shows the strongest positive correlation with O₃_AQI, validating its importance as a predictor.

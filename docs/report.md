@@ -77,11 +77,15 @@ EDA was conducted to understand data distribution and feature relationships.
 - **Correlation Analysis:**  
   O₃_Mean shows the strongest positive correlation with O₃_AQI, validating its importance as a predictor.
 
+  ![Correlation Heatmap](CORRELATION_HEATMAP.PNG)
+
 - **Scatter Matrix:**  
   Scatter plots indicate mostly linear relationships between features and the target variable.
+  ![Scatter Matrix](Scatter_matrix.PNG)
 
 - **Time-Series Trend:**  
   O₃_AQI exhibits seasonal patterns and a gradual long-term decline, reflecting environmental regulations and policy impacts.
+  ![O3 AQI Time Series](trend_of_o3_aqi_overtime.PNG)
 
 ---
 
